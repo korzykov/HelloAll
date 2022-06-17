@@ -8,5 +8,9 @@ public class TestMatches {
         System.out.println(word1.matches("[a-zA-Z]+"));
         System.out.println(word2.matches("[a-я А-Я]+"));
         System.out.println(word3.matches("[qeyuioa]"));
+        char c='b';
+        char d='a';
+        ;
+        System.out.println(c<d);
     }
 }
